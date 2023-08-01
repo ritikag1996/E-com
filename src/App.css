@@ -1,11 +1,86 @@
-.App {
+.nav-ul li {
+  display:inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+}
+.nav-ul{
+  background-color: skyblue;
+  margin:0;
+  
+}
+.right{
+  text-align: right;
+}
+.products ul li{
+display:inline-block;
+padding:10px;
+border: 1px solid skyblue;
+width:140px;
+}
+.products{
+  text-align: center;
+}
+.search{
+  margin:10px;
+  padding:10px;
+}
+.search input{
+  width:350px;
+  padding:8px;
+}
+.search button{
+  width:100px;
+  padding:8px;
+  background-color: skyblue;
+}
+.products ul{
+  margin:0;
+}
+.logo{
+    width: 40px;
+    float: left;
+    border-radius: 30px;
+    margin: 2px;
+}
+.validation{
+  display: block;
+  color: red;
+  margin-left: 70px;
+  margin-top: -15px;
+}
+.register,.product{
+  margin-left: 40%;
+}
+.login{
+  margin-Left:40%;
+}
+.label1{
+  margin:0;
+}
+.input1{
+  margin:20px;
+  padding:10px;
+  width:300px;
+  border:1px solid skyblue;
+}
+.signButton{
+margin:15px;
+padding:10px;
+background-color: skyblue;
+width:200px;
+cursor:pointer;
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  background-color: skyblue;
+  width:100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
